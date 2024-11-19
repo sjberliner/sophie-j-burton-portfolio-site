@@ -1,0 +1,18 @@
+/* Custom styling for the navbar links */
+nav .navbar-brand {
+  color: #DBC2CF; /* Custom color for the navbar links */
+}
+
+nav .navbar-brand:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+/* Additional custom styles for content */
+.card-body {
+  background-color: #f8f9fa;
+}
+
+footer a {
+  margin-top: 10px;
+}

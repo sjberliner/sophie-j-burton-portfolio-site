@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Page with Bootstrap</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+
+  <!-- Full-width container at the top -->
+  <div>
+    <h1 class="display-4 text-center" style="background-color: #3c7a89; padding: 20px;">S-J's Attempt At Coding</h1> <!-- Added background color and padding -->
+    <p class="lead text-center">Welcome to 1986!</p>
+  </div>
+
+  <!-- Bootstrap Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #9FA2B2;">
+    <div class="container">
+      <a class="navbar-brand text-light" href="index.html">Home</a>
+      <a class="navbar-brand text-light" href="about.html">About</a>
+      <a class="navbar-brand text-light" href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Row of Responsive Columns -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="./images/5thpolaroid.jpg" class="card-img-top" alt="Image 1">
+          <div class="card-body">
+            <h5 class="card-title">Column 1</h5>
+            <p class="card-text">This is a description for the first column. It adapts to screen size.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="./images/4thpolaroid.jpg" class="card-img-top" alt="Image 2">
+          <div class="card-body">
+            <h5 class="card-title">Column 2</h5>
+            <p class="card-text">This is a description for the second column. It adapts to screen size.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="./images/6thpolaroid.jpg" class="card-img-top" alt="Image 3">
+          <div class="card-body">
+            <h5 class="card-title">Column 3</h5>
+            <p class="card-text">This is a description for the third column. It adapts to screen size.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap Table -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Sample Table</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Animal</th>
+          <th>Mineral</th>
+          <th>Vegetable</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Cow</td>
+          <td>X</td>
+          <td>Paris</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Cat</td>
+          <td>Y</td>
+          <td>Texas</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Cod</td>
+          <td>Z</td>
+          <td>Other</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Full-width container at the bottom with Copyright and Ts&Cs -->
+  <div class="container-fluid bg-dark text-white p-5">
+    <div class="row">
+      <div class="col text-center">
+        <p>&copy; 2024 SJ's Website. All Rights Reserved.</p>
+        <a href="terms.html" class="text-light">Terms & Conditions</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies (jQuery, Popper.js) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
